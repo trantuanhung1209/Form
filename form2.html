@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form2.css">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <title>Form2</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="container">
+        
+        <div id="logo">
+           
+            <h1 style="font-family: 'Times New Roman', Times, serif;">
+                <div id="jackson">
+                    <div class="bolt"></div>
+                    <div id="line_flash1">_</div>
+                    <div id="line_flash2">_</div>
+                    <div id="line_flash3">_</div>
+                    Jackson
+                </div>
+                <div id="line">_______</div>
+                <div id="electronics">
+                    Electronics
+                </div>
+            </h1>
+        </div>
+
+        <h2>Registration Form</h2>
+        <h4>Register your Jackson Electronics product here</h4>
+
+        <div id="name">
+            <label for="firt_name">First Name:</label>
+            <input type="text" name="" id="name_space1">
+            <label for="last_name">Last Name:</label>
+            <input type="text" name="" id="name_space2">
+        </div>
+
+        <div id="address">
+            <label for="Address1">Address #1:</label>
+            <input type="text" name="" id="address1_space">
+            <br>
+            <label for="Address2">Address #2:</label>
+            <input type="text" name="" id="address2_space">
+        </div>
+
+        <div id="city">
+            <label for="City">City:</label>
+            <input type="text" name="" id="city_space">
+            <label for="State">State: </label>
+            <input type="text" name="" id="state_space">
+            <label for="Zip">Zip: </label>
+            <input type="text" name="" id="zip_space">
+        </div>
+
+        <div id="country">
+            <label for="Country">Country: </label>
+            <input type="text" name="" id="country_space" value="United States">
+        </div>
+
+        <hr id="hr">
+
+        <div id="product">
+            <label for="Product">Product:</label>
+            <select name="Product" id="product_space">
+                <option value="">Select</option>
+                <option value="1">ScanMaster</option>
+                <option value="2">---</option>
+            </select>
+        </div>
+
+        <div id="date">
+            <label for="Date">Date Purchase:</label>
+            <input type="text" name="" id="date_space">
+        </div>
+
+        <div id="serial">
+        
+            <label for="Serial">Serial #:</label>
+            <input type="text" name="" id="serial_space">
+        </div>
+
+        <div id="use_for">
+            <label for="Use_for">Used for:</label>
+            <input type="radio" name="use" id="home">
+            <label for="Home">Home</label>
+            <input type="radio" name="use" id="Education">
+            <label for="Education">Education Insitution</label><br>
+            <input type="radio" name="use" id="Business">
+            <label for="Business">Business</label>
+            <input type="radio" name="Other" id="Other">
+            <label for="Other">Other</label><br>
+            <input type="radio" name="use" id="govermment">
+            <label for="Govermment">Govermment</label>
+        </div>
+
+        <div id="system">
+            <label for="System">System(check all that apply):</label>
+            <input type="checkbox" value="Windows">
+            <label for="Windows">Windows</label>
+            <input type="checkbox" value="UNIX" id="UNIX">
+            <label for="UNIX">UNIX</label><br>
+            <input type="checkbox" value="Macintosh" id="Macintosh">
+            <label for="Macintosh">Macintosh</label>
+            <input type="checkbox" value="Other" id="other_checkbox">
+            <label for="Other">Other</label>
+
+        </div>
+
+        <hr>
+
+        <div id="comments">
+            <label for="Comments">Comments?:</label>
+            <textarea name="box_cmt" id="cmt_space" cols="30" rows="10"></textarea>
+        </div>
+
+
+        <div id="register">
+            <input type="button" onclick="alert('Register Success!')" value="Click to register"> &nbsp;
+            <input type="button" onclick="alert('You canceled register!')" value="Click to cancel">
+        </div>
+
+    </div>
+
+    
+    
+
+
+</body>
+</html>

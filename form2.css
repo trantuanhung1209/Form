@@ -1,0 +1,220 @@
+.container{
+    border: 2px solid whitesmoke;
+    width: 80%;
+    margin: 0 auto;
+    height: 800px;
+    background-color: rgb(83, 174, 253);
+    box-shadow:  5px 10px #888888;
+    
+}
+
+#logo{
+    
+    border: 2px solid black; 
+    box-shadow: inset 0px 0px 0px 1px rgb(0, 0, 0), 5px 5px #958b8b; 
+    border-radius: 20px;
+    width: 300px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 400px;
+    text-align: left;
+    background-color: rgb(0, 255, 251);
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    
+}
+
+.bolt{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    clip-path: polygon(49% 0, 10% 24%, 37% 43%, 27% 48%, 50% 70%, 41% 76%, 80% 100%, 60% 65%, 69% 60%, 49% 36%, 55% 31%);
+    font-size: 5px;
+    position: relative;
+    top: 40px;
+    left: 0px;
+}
+
+#line_flash1{
+    position: absolute; /* Changed to absolute for positioning */
+    top : 72px;
+    left: 600px;
+    transform: rotate(349deg);
+    font-variant: small-caps;
+}
+
+#line_flash2{
+    position: absolute; /* Changed to absolute for positioning */
+    top: 73px;
+    transform: rotate(320deg);
+    left: 590px;
+}
+#line_flash3{
+    position: absolute; /* Changed to absolute for positioning */
+    top: 80px;
+    transform: rotate(287deg);
+    left: 579px;
+}
+
+
+h1{
+    margin-top: -65px;
+}
+
+#jackson{
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-left: 10px;
+
+}
+
+#electronics{
+    margin-top: 5px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+#line{
+    font-size: 85px;
+    margin-top: -85px;
+}
+
+
+
+h2{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    margin-bottom: auto;
+
+}
+
+#name{
+    margin-left: 280px;
+    margin-bottom: 5px;
+}
+#name_space1{
+    margin-left: 110px;
+    width: 90px;
+}
+#name_space2{
+    width: 90px;
+}
+#address{
+    margin-left: 280px;
+    margin-bottom: 5px;
+}
+
+#address_space{
+    margin-left: 60px;
+    width: 190px;
+}
+
+#address1_space{
+    margin-left: 110px;
+    width: 190px;
+    margin-bottom: 5px;
+}
+#address2_space{
+    margin-left: 110px;
+    width: 190px;
+}
+#city{
+    margin-left: 280px;
+    margin-bottom: 5px;
+}
+#city_space{
+    margin-left: 155px;
+    width: 140px;
+}
+#state_space{
+    width: 40px;
+}
+#zip_space{
+    width: 60px;
+}
+#country{
+    margin-left: 280px;
+    margin-bottom: 5px;
+}
+#country_space{
+    margin-left: 130px;
+    width: 140px;
+}
+#hr{
+    color: black;
+}
+#product{
+    margin-left: 280px;
+    margin-bottom: 5px;
+}
+#product_space{
+    margin-left: 132px;
+    width: 140px;
+    width: 100px;
+}
+#date{
+    margin-left: 280px;
+    margin-bottom: 5px;
+}
+#date_space{
+    margin-left: 90px;
+    width: 140px;
+}
+#serial{
+    margin-left: 280px;
+    margin-bottom: 5px;
+}
+#serial_space{
+    margin-left: 132px;
+    width: 140px;
+}
+#use_for{
+    margin-left: 280px;
+    margin-bottom: 5px;
+}
+#home{
+    margin-left: 132px;
+}
+#Education{
+    margin-left: 82px;
+}
+#Business{
+    margin-left: 196px;
+}
+#Other{
+    margin-left: 65px;
+}
+#govermment{
+    margin-left: 196px;
+}
+#system{
+    margin-left: 280px;
+    margin-bottom: 5px;
+}
+#UNIX{
+    margin-left: 63px;
+}
+#Macintosh{
+    margin-left: 196px;
+}
+#comments{
+    margin-left: 280px;
+    margin-bottom: 5px;
+}
+#other_checkbox{
+    margin-left: 55px;
+}
+#cmt_space{
+    margin-left: 112px;
+    width: 300px;
+    height: 100px;
+}
+#register{
+    margin-left: 500px;
+}
+
+
+
